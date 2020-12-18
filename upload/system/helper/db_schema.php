@@ -4167,7 +4167,7 @@ function db_schema() {
 			[
 				'name' => 'image',
 				'type' => 'varchar(255)',
-				'not_null' => true
+				'not_null' => false
 			],
 			[
 				'name' => 'manufacturer_id',
