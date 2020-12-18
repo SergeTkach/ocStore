@@ -77,7 +77,7 @@ class Twig {
 		}
 
 		// We have to remove the root web directory.
-		$file = substr($file, strlen($this->root) + 1);
+		$file = substr($file, strlen($this->root));
 
 		if ($code) {
 			// render from modified template code
